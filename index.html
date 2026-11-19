@@ -18,7 +18,27 @@
             color: #00008B;}
 
         h3 {font-family: Arial, Helvetica, sans-serif;
-            font-size: 25px;}
+            font-size: 25px;
+            color: #008B8B;}
+
+        p,li {font-family: Arial, Helvetica, sans-serif;}
+
+        a:visited {color:grey;}
+
+        a:hover {font-weight: bold;
+                 color:red;}
+
+        a:active {color:green;}
+
+        table,th,td {width: 33%;
+                     margin: 0 auto;
+                     border: 1px solid brown;
+                     border-collapse: collapse;
+                     background-color: antiquewhite;}
+
+        body {background-image: url(bricolaje.jpg);
+              background-size:cover;
+              background-position: center center;}
 
     </style>
 </head>
@@ -27,21 +47,21 @@
     <h2>Bienvenidos al lugar donde se hacen realidad tus sueños</h2>
     <h3>Inicio</h3>
     <ol>
-        <li>Quienes somos</li>
-        <li>Qué hacemos</li>
-        <li>Solicita información</li>
-        <li>Escríbenos</li>
+        <a href="#quienessomos"><li>Quienes somos</li></a>
+        <a href="#quehacemos"><li>Qué hacemos</li></a>
+        <a href="formulario.html"><li>Solicita información</li></a>
+        <a href="#nuestrassedes"><li>Escríbenos</li></a>
     </ol>
-    <h3>Quienes somos</h3>
+    <h3 id="quienessomos">Quienes somos</h3>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae at saepe cum quas repellendus! Blanditiis id aperiam, consequuntur laboriosam amet illo sapiente, quam ullam at maxime, odio repellendus quaerat aspernatur.</p>
-    <h3>Qué hacemos</h3>
+    <h3 id="quehacemos">Qué hacemos</h3>
     <ul>
         <li>Tableros y muebles</li>
         <li>Herramientas</li>
         <li>Pintura</li>
         <li>Cortinas</li>
     </ul>
-    <h3>Nuestras sedes</h3>
+    <h3 id="nuestrassedes">Nuestras sedes</h3>
     <table>
         <tr>
             <th>Población</th>

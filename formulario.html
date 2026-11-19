@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulario de información</h1>
+    <form action="">
+        <fieldset>
+            <legend>Sus Datos</legend>
+            <p>
+            <label for="nombreyapellidos">Nombre y apellidos</label>
+            <input type="text" name="nombreyapellidos" id="nombreyapellidos">
+            </p>
+            <p>
+            <label for="contraseña">Contraseña</label>
+            <input type="password" name="contraseña" id="contraseña">
+            </p>
+            <p>
+            <label for="usuario">Usuario</label>
+            <input type="text" name="usuario" id="usuario">
+            </p>
+            <p>
+            <label for="nivel">Nivel</label>
+            </p>
+            <p>
+            <input type="radio" id="profesional">
+            <label for="profesional">Profesional</label>
+            </p>
+            <p>
+            <input type="radio" id="avanzado">
+            <label for="avanzado">Avanzado</label>
+            </p>
+            <p>
+            <input type="radio" id="principiante">
+            <label for="principiante">Principiante</label>
+            </p>
+        </fieldset>
+        <p>
+        <label for="nacionalidad">Nacionalidad:</label>
+        <select name="nacionalidad" id="nacionalidad">
+            <option value="">España</option>
+            <option value="">Venezuela</option>
+            <option value="">Colombia</option>
+        </select>
+        </p>
+        <p>
+        <label for="dexcripcion">Descripción:</label>
+        <textarea name="descripcion" id="descripcion"></textarea>
+        </p>
+        <input type="checkbox">
+    </form>
+</body>
+</html>
